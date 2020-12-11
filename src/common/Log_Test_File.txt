@@ -1,0 +1,1786 @@
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E008-H3K4ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E008-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E008-H3K4me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E008-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E008-H3K56ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E008-H3K79me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E008-H3K79me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E008-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E008-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E008-H3T11ph
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E008-H4K20me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E008-H4K5ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E008-H4K8ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E008-H4K91ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E009-H2A
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E009-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E009-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E009-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E009-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E009-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E010-H2A
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E010-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E010-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E010-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E010-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E010-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E011-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E011-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E011-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E011-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E011-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E011-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E011-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E012-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E012-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E012-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E012-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E012-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E012-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E013-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E013-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E013-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E013-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E013-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E013-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E014-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E014-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E014-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E014-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E014-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E014-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E014-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E015-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E015-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E015-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E015-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E015-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E015-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E015-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E016-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E016-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E016-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E016-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E016-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E016-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E016-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H2A
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H2AK5ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H2AK9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H2BK120ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H2BK12ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H2BK15ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H2BK20ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H2BK5ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H3K14ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H3K18ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H3K23ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H3K4ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H3K4me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H3K56ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H3K79me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H3K79me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H3K9me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H4K20me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H4K5ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H4K8ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E017-H4K91ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E018-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E018-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E018-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E018-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E018-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E018-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E019-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E019-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E019-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E019-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E019-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E019-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E019-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E020-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E020-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E020-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E020-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E020-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E020-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E020-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E021-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E021-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E021-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E021-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E021-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E021-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E021-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E022-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E022-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E022-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E022-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E022-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E022-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E022-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E023-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E023-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E023-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E023-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E023-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E023-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E024-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E024-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E024-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E024-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E024-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E025-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E025-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E025-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E025-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E025-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E025-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E026-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E026-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E026-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E026-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E026-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E026-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E026-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E027-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E027-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E027-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E027-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E027-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E027-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E028-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E028-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E028-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E028-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E028-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E028-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E029-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E029-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E029-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E029-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E029-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E029-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E029-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E030-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E030-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E030-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E030-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E030-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E031-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E031-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E031-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E031-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E031-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E032-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E032-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E032-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E032-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E032-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E032-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E032-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E033-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E033-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E033-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E033-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E033-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E033-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E034-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E034-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E034-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E034-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E034-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E034-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E034-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E035-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E035-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E035-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E035-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E035-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E036-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E036-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E036-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E036-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E036-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E037-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E037-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E037-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E037-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E037-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E037-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E038-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E038-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E038-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E038-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E038-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E038-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E038-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E039-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E039-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E039-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E039-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E039-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E039-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E040-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E040-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E040-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E040-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E040-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E040-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E041-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E041-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E041-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E041-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E041-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E041-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E042-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E042-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E042-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E042-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E042-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E042-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E043-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E043-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E043-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E043-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E043-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E043-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E044-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E044-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E044-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E044-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E044-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E044-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E045-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E045-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E045-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E045-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E045-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E045-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E046-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E046-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E046-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E046-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E046-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E046-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E046-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E047-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E047-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E047-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E047-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E047-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E047-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E047-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E048-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E048-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E048-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E048-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E048-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E048-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E049-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E049-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E049-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E049-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E049-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E049-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E049-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E050-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E050-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E050-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E050-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E050-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E050-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E050-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E051-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E051-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E051-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E051-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E051-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E051-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E052-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E052-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E052-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E052-H3K4me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E052-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E052-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E052-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E053-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E053-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E053-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E053-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E053-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E054-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E054-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E054-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E054-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E054-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E055-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E055-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E055-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E055-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E055-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E055-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E055-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E056-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E056-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E056-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E056-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E056-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E056-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E056-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E057-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E057-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E057-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E057-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E057-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E057-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E058-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E058-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E058-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E058-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E058-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E058-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E059-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E059-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E059-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E059-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E059-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E059-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E059-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E061-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E061-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E061-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E061-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E061-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E061-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E062-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E062-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E062-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E062-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E062-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E062-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E062-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E063-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E063-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E063-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E063-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E063-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E063-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E063-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E065-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E065-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E065-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E065-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E065-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E065-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E066-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E066-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E066-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E066-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E066-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E066-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E066-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E067-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E067-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E067-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E067-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E067-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E067-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E067-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E068-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E068-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E068-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E068-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E068-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E068-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E068-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E069-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E069-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E069-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E069-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E069-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E069-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E069-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E070-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E070-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E070-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E070-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E070-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E071-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E071-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E071-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E071-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E071-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E071-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E072-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E072-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E072-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E072-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E072-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E072-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E072-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E073-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E073-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E073-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E073-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E073-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E073-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E073-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E074-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E074-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E074-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E074-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E074-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E074-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E074-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E075-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E075-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E075-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E075-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E075-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E075-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E075-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E076-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E076-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E076-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E076-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E076-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E076-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E076-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E077-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E077-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E077-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E077-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E077-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E077-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E078-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E078-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E078-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E078-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E078-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E078-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E079-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E079-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E079-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E079-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E079-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E079-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E080-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E080-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E080-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E080-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E080-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E080-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E080-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E081-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E081-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E081-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E081-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E081-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E081-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E082-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E082-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E082-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E082-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E082-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E082-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E083-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E083-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E083-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E083-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E083-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E083-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E083-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E084-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E084-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E084-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E084-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E084-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E084-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E084-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E085-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E085-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E085-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E085-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E085-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E085-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E085-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E086-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E086-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E086-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E086-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E086-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E086-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E086-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E087-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E087-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E087-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E087-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E087-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E087-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E087-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E088-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E088-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E088-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E088-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E088-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E088-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E088-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E089-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E089-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E089-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E089-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E089-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E089-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E089-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E090-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E090-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E090-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E090-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E090-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E090-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E090-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E091-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E091-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E091-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E091-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E091-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E091-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E091-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E092-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E092-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E092-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E092-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E092-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E092-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E092-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E093-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E093-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E093-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E093-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E093-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E093-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E093-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E094-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E094-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E094-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E094-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E094-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E094-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E094-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E095-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E095-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E095-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E095-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E095-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E095-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E096-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E096-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E096-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E096-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E096-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E096-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E097-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E097-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E097-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E097-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E097-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E097-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E097-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E098-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E098-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E098-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E098-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E098-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E098-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E098-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E099-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E099-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E099-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E099-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E099-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E099-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E100-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E100-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E100-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E100-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E100-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E100-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E100-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E101-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E101-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E101-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E101-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E101-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E101-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E101-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E102-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E102-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E102-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E102-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E102-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E102-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E102-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E103-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E103-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E103-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E103-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E103-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E103-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E103-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E104-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E104-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E104-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E104-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E104-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E104-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E105-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E105-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E105-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E105-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E105-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E105-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E106-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E106-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E106-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E106-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E106-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E106-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E107-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E107-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E107-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E107-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E107-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E107-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E108-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E108-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E108-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E108-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E108-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E108-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E108-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E109-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E109-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E109-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E109-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E109-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E109-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E109-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E110-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E110-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E110-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E110-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E110-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E110-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E111-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E111-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E111-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E111-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E111-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E111-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E111-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E112-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E112-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E112-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E112-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E112-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E112-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E113-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E113-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E113-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E113-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E113-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E113-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E114-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E114-H2A
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E114-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E114-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E114-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E114-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E114-H3K4me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E114-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E114-H3K79me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E114-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E114-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E114-H4K20me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E115-H2A
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E115-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E115-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E115-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E115-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E115-H3K4me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E115-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E115-H3K79me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E115-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E115-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E115-H4K20me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E116-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E116-H2A
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E116-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E116-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E116-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E116-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E116-H3K4me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E116-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E116-H3K79me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E116-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E116-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E116-H4K20me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E117-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E117-H2A
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E117-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E117-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E117-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E117-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E117-H3K4me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E117-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E117-H3K79me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E117-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E117-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E117-H4K20me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E118-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E118-H2A
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E118-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E118-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E118-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E118-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E118-H3K4me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E118-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E118-H3K79me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E118-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E118-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E118-H4K20me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E119-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E119-H2A
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E119-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E119-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E119-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E119-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E119-H3K4me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E119-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E119-H3K79me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E119-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E119-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E119-H4K20me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E120-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E120-H2A
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E120-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E120-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E120-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E120-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E120-H3K4me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E120-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E120-H3K79me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E120-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E120-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E120-H4K20me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E121-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E121-H2A
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E121-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E121-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E121-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E121-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E121-H3K4me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E121-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E121-H3K79me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E121-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E121-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E121-H4K20me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E122-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E122-H2A
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E122-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E122-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E122-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E122-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E122-H3K4me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E122-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E122-H3K79me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E122-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E122-H3K9me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E122-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E122-H4K20me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E123-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E123-H2A
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E123-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E123-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E123-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E123-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E123-H3K4me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E123-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E123-H3K79me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E123-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E123-H3K9me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E123-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E123-H4K20me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E124-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E124-H2A
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E124-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E124-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E124-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E124-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E124-H3K4me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E124-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E124-H3K79me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E124-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E124-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E124-H4K20me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E125-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E125-H2A
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E125-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E125-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E125-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E125-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E125-H3K4me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E125-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E125-H3K79me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E125-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E125-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E125-H4K20me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E126-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E126-H2A
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E126-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E126-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E126-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E126-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E126-H3K4me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E126-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E126-H3K79me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E126-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E126-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E126-H4K20me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E127-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E127-H2A
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E127-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E127-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E127-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E127-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E127-H3K4me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E127-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E127-H3K79me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E127-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E127-H3K9me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E127-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E127-H4K20me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E128-DNase
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E128-H2A
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E128-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E128-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E128-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E128-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E128-H3K4me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E128-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E128-H3K79me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E128-H3K9ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E128-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E128-H4K20me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E129-H2A
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E129-H3K27ac
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E129-H3K27me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E129-H3K36me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E129-H3K4me1
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E129-H3K4me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E129-H3K4me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E129-H3K79me2
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E129-H3K9me3
+INFO:root:Error message: [Errno 32] Broken pipe
+INFO:root:file name: E129-H4K20me1

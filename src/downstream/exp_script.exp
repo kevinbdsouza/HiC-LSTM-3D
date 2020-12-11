@@ -1,0 +1,5 @@
+#!usr/bin/expect
+
+spawn /Users/kevindsouza/Documents/UBC/PhD/Research/nucleosome/hic_lstm/src/downstream/git_add.sh
+expect "Enter passphrase for key '/home/kevindsouza/.ssh/id_rsa':"
+send "Popinlaw9614!\r"
