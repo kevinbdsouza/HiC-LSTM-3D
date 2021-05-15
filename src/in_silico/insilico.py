@@ -6,7 +6,7 @@ import seaborn as sns
 import numpy as np
 from common.log import setup_logging
 from train_fns.test_hic import get_config
-from train_fns.data_prep_hic import DataPrepHic
+from train_fns.data_prep2 import DataPrepHic
 import traceback
 from keras.callbacks import TensorBoard
 from train_fns.monitor_testing import MonitorTesting

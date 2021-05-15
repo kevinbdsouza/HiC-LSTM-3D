@@ -5,7 +5,7 @@ import xgboost
 from sklearn.metrics import average_precision_score
 from sklearn.utils import resample
 from train_fns.test_hic import get_config
-from train_fns.data_prep_hic import DataPrepHic
+from train_fns.data_prep2 import DataPrepHic
 from sklearn.preprocessing import LabelEncoder
 import sklearn
 from sklearn.neural_network import MLPRegressor

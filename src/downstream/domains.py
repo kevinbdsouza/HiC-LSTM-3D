@@ -3,7 +3,7 @@ import re
 import os
 import numpy as np
 from train_fns import config
-from train_fns.data_prep_hic import DataPrepHic
+from train_fns.data_prep2 import DataPrepHic
 from downstream.downstream_helper import DownstreamHelper
 
 

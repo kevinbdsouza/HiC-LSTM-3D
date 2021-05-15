@@ -2,7 +2,7 @@ import logging
 from downstream.rna_seq import RnaSeq
 from train_fns.test_hic import get_config
 from common.log import setup_logging
-from train_fns.data_prep_hic import DataPrepHic
+from train_fns.data_prep2 import DataPrepHic
 import numpy as np
 import pandas as pd
 from downstream.downstream_helper import DownstreamHelper

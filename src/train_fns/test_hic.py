@@ -1,5 +1,5 @@
 from __future__ import division
-from train_fns.data_prep_hic import DataPrepHic
+from train_fns.data_prep2 import DataPrepHic
 from train_fns.monitor_testing import MonitorTesting
 from train_fns.train_hic import unroll_loop
 from eda.viz import Viz
