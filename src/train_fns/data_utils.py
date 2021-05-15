@@ -1,132 +1,13 @@
-import numpy as np
-import pandas as pd
-import scipy.sparse
 import math
 import os
 import torch
 import torch.utils.data
 from torch.nn.utils.rnn import pad_sequence
-
+import numpy as np
+import pandas as pd
+import scipy.sparse
 import matplotlib
-
-matplotlib.use('pdf')
 import matplotlib.pyplot as plt
-
-
-def get_bin_idx(chr, pos, cfg):
-    sizes = np.load(cfg.hic_path + cfg.sizes_file, allow_pickle=True).item()
-    chr = ['chr' + str(x - 1) for x in chr]
-    chr_start = [sizes[key] for key in chr]
-
-    return pos + chr_start
-
-
-def get_genomic_coord(chr, bin_idx, cfg):
-    sizes = np.load(cfg.hic_path + cfg.sizes_file, allow_pickle=True).item()
-    chr = ['chr' + str(x - 1) for x in chr]
-    chr_start = [sizes[key] for key in chr]
-
-    return (bin_idx - chr_start) * cfg.resolution
-
-
-def load_hic(cfg, cell, chr):
-    data = pd.read_csv("%s%s/%s/hic_chr%s.txt" % (cfg.hic_path, cell, chr, chr), sep="\t", names=['i', 'j', 'v'])
-
-    data[['i', 'j']] = data[['i', 'j']] / cfg.resolution
-    data[['i', 'j']] = data[['i', 'j']].astype('int64')
-    return data
-
-
-def get_samples_dense(data, seq_lstm, chr, cfg):
-    dist = cfg.distance_cut_off_mb
-    mat = scipy.sparse.coo_matrix((data.v, (data.i, data.j))).tocsr()
-
-    bin1 = get_bin_idx(chr, 0, cfg)
-    nrows = mat.shape[0]
-
-    values = torch.zeros(nrows, 2 * dist)
-    input_idx = torch.zeros(nrows, 2 * dist, 2)
-
-    for row in range(nrows):
-        # get distance around diagonal
-        start = max(row - dist, 0)
-        stop = min(row + dist, mat.shape[0])
-
-        # get Hi-C values
-        vals = mat[row, start:stop].todense()
-        vals = torch.squeeze(torch.from_numpy(vals))
-
-        # get indices for inserting data
-        idx1 = max(0, dist - row)
-        idx2 = idx1 + vals.shape[0]
-
-        # insert values
-        vals_tmp = torch.zeros(1, 2 * dist)
-        values[row, idx1:idx2] = vals
-
-        # get indices
-        j = torch.tensor(np.arange(start, stop))
-        i = torch.full(j.shape, fill_value=row)
-        ind = torch.cat((i, j), 1)
-        input_idx[row, idx1:idx2, ] = ind
-
-    # only add datapoint if one of the values is non-zero:
-    nonzero_idx = torch.sum(values, dim=1).nonzero().squeeze()
-    values = values[nonzero_idx,]
-    input_idx = input_idx[nonzero_idx,]
-
-    return input_idx, values
-
-
-def get_samples_sparse(data, seq_lstm, chr, cfg):
-    data = data.apply(pd.to_numeric)
-    nrows = max(data['i'].max(), data['j'].max()) + 1
-    data['v'] = data['v'].fillna(0)
-    data['i_binidx'] = get_bin_idx(np.full(data.shape[0], chr), data['i'], cfg)
-    data['j_binidx'] = get_bin_idx(np.full(data.shape[0], chr), data['j'], cfg)
-
-    values = []
-    input_idx = []
-    nvals_list = []
-    sample_index = []
-    for row in range(nrows):
-        # get Hi-C values
-        vals = data[data['i'] == row]['v'].values
-        nvals = vals.shape[0]
-        if nvals == 0:
-            continue
-        else:
-            vals = contactProbabilities(vals)
-
-        if (nvals > 10):
-            nvals_list.append(nvals)
-            vals = torch.from_numpy(vals)
-
-            split_vals = vals.split(cfg.sequence_length, dim=0)
-            values = values + list(split_vals)
-
-            # get indices
-            j = torch.Tensor(data[data['i'] == row]['j_binidx'].values)
-            i = torch.Tensor(data[data['i'] == row]['i_binidx'].values)
-
-            # concatenate indices
-            ind = torch.cat((i.unsqueeze(-1), j.unsqueeze(-1)), 1)
-            split_ind = torch.split(ind, cfg.sequence_length, dim=0)
-            input_idx = input_idx + list(split_ind)
-
-            sample_index.append(ind)
-
-    values = pad_sequence(values, batch_first=True)
-    input_idx = pad_sequence(input_idx, batch_first=True)
-
-    sample_index = np.vstack(sample_index)
-    sample_index = np.concatenate((np.full((sample_index.shape[0], 1), chr), sample_index), 1).astype('int')
-
-    plt.hist(nvals_list, bins=50)
-    plt.savefig(cfg.plot_dir + "hist_rowlength_chr%s.pdf" % str(chr))
-    plt.close()
-
-    return input_idx, values, sample_index
 
 
 def contactProbabilities(values, delta=1e-10):
@@ -136,63 +17,124 @@ def contactProbabilities(values, delta=1e-10):
     return CP
 
 
-def get_samples(data, seq_lstm, chr, cfg, dense):
-    if dense:
-        return get_samples_dense(data, seq_lstm, chr, cfg)
-    else:
-        return get_samples_sparse(data, seq_lstm, chr, cfg)
+def bin_index(cfg, chr, pos_id):
+    sizes = np.load(cfg.hic_path + cfg.sizes_file, allow_pickle=True).item()
+    chr_key = ['chr' + str(chrom - 1) for chrom in chr]
+    chr_begin = [sizes[key] for key in chr_key]
+
+    return pos_id + chr_begin
 
 
-def get_data(seq_lstm, cfg, cell, chr):
-    data = load_hic(cfg, cell, chr)
-    input_idx, values, sample_index = get_samples(data, seq_lstm, chr, cfg, dense=False)
+def get_hic(chr, cell, cfg):
+    hic_data = pd.read_csv("%s%s/%s/hic_chr%s.txt" % (cfg.hic_path, cell, chr, chr), sep="\t", names=['i', 'j', 'v'])
 
-    return input_idx, values, sample_index
-
-
-def get_data_loader_chr(seq_lstm, cfg, cell, chr, dense=False):
-    input_idx, values, sample_index = get_data(seq_lstm, cfg, cell, chr)
-
-    # create dataset, dataloader
-    dataset = torch.utils.data.TensorDataset(input_idx.float(), values.float())
-    data_loader = torch.utils.data.DataLoader(dataset=dataset, batch_size=cfg.batch_size, shuffle=False)
-
-    return data_loader, sample_index
+    hic_data[['i', 'j']] = hic_data[['i', 'j']] / cfg.resolution
+    hic_data[['i', 'j']] = hic_data[['i', 'j']].astype('int64')
+    return hic_data
 
 
-def get_data_loader(seq_lstm, cfg, cell, dense=False):
-    # create input dataset
-    values = torch.empty(0, cfg.sequence_length)
-    input_idx = torch.empty(0, cfg.sequence_length, 2)
-    sample_index = []
+def get_gen_pos(cfg, chr, index_bin):
+    sizes = np.load(cfg.hic_path + cfg.sizes_file, allow_pickle=True).item()
+    chr_key = ['chr' + str(chrom - 1) for chrom in chr]
+    chr_begin = [sizes[key] for key in chr_key]
+
+    return (index_bin - chr_begin) * cfg.resolution
+
+
+def load_hic_samples(chr, cfg, hic_data):
+    hic_data = hic_data.apply(pd.to_numeric)
+    hic_data['i_bin'] = bin_index(cfg, np.full(hic_data.shape[0], chr), hic_data['i'])
+    hic_data['j_bin'] = bin_index(cfg, np.full(hic_data.shape[0], chr), hic_data['j'])
+    hic_data['v'] = hic_data['v'].fillna(0)
+    num_rows = max(hic_data['i'].max(), hic_data['j'].max()) + 1
+
+    values_agg = []
+    input_pos_agg = []
+    list_nvals = []
+    idx_agg = []
+    for r in range(num_rows):
+        # Hi-C values
+        values = hic_data[hic_data['i'] == r]['v'].values
+        nvalues = values.shape[0]
+        if nvalues == 0:
+            continue
+        else:
+            values = contactProbabilities(values)
+
+        if (nvalues > 10):
+            list_nvals.append(nvalues)
+            values = torch.from_numpy(values)
+
+            values_split = values.split(cfg.chunk_length, dim=0)
+            values_agg = values_agg + list(values_split)
+
+            # input indices
+            row_id = torch.Tensor(hic_data[hic_data['i'] == r]['i_bin'].values)
+            column_id = torch.Tensor(hic_data[hic_data['i'] == r]['j_bin'].values)
+            input_ind = torch.cat((row_id.unsqueeze(-1), column_id.unsqueeze(-1)), 1)
+            chunk_ind = torch.split(input_ind, cfg.chunk_length, dim=0)
+            input_pos_agg = input_pos_agg + list(chunk_ind)
+
+            idx_agg.append(input_ind)
+
+    hic_values = pad_sequence(values_agg, batch_first=True)
+    input_pos = pad_sequence(input_pos_agg, batch_first=True)
+    unsplit_ids = np.vstack(idx_agg)
+    unsplit_ids = np.concatenate((np.full((unsplit_ids.shape[0], 1), chr), unsplit_ids), 1).astype('int')
+
+    return unsplit_ids, input_pos, hic_values
+
+
+def load_hic_data(chr, cell, cfg):
+    hic_data = get_hic(chr, cell, cfg)
+    unsplit_ids, input_pos, hic_values = load_hic_samples(chr, cfg, hic_data)
+
+    return unsplit_ids, input_pos, hic_values
+
+
+def get_hic_loader_chr(chr, cell, cfg):
+    unsplit_ids, hic_values, input_pos = load_hic_data(chr, cell, cfg)
+
+    # build dataloader
+    datacomb = torch.utils.data.TensorDataset(input_pos.float(), hic_values.float())
+    hic_loader = torch.utils.data.DataLoader(dataset=datacomb, batch_size=cfg.batch_size, shuffle=False)
+
+    return hic_loader, unsplit_ids
+
+
+def get_hic_loader(cell, cfg):
+    # build dataset
+    input_pos_agg = torch.empty(0, cfg.chunk_length, 2)
+    values_agg = torch.empty(0, cfg.chunk_length)
+    unsplit_ids_agg = []
 
     # for chr in list(range(1, 11)) + list(range(12,23)):
     for chr in list(range(22, 23)):
-        idx, val, sample_idx = get_data(seq_lstm, cfg, cell, chr)
+        unsplit_ids, hic_values, input_pos = load_hic_data(chr, cell, cfg)
 
-        values = torch.cat((values, val.float()), 0)
-        input_idx = torch.cat((input_idx, idx), 0)
-        sample_index.append(sample_idx)
+        input_pos_agg = torch.cat((input_pos_agg, input_pos), 0)
+        values_agg = torch.cat((values_agg, hic_values.float()), 0)
+        unsplit_ids_agg.append(unsplit_ids)
 
-    sample_index = np.vstack(sample_index)
+    unsplit_ids_agg = np.vstack(unsplit_ids_agg)
 
-    # save input data
-    torch.save(input_idx, cfg.processed_data_dir + 'input_idx.pth')
-    torch.save(values, cfg.processed_data_dir + 'values.pth')
-    torch.save(sample_index, cfg.processed_data_dir + 'input_index.pth')
+    # save data
+    torch.save(input_pos_agg, cfg.processed_data_dir + 'input_pos.pth')
+    torch.save(values_agg, cfg.processed_data_dir + 'hic_values.pth')
+    torch.save(ids_agg, cfg.processed_data_dir + 'unsplit_ids.pth')
 
-    # create dataset, dataloader
-    dataset = torch.utils.data.TensorDataset(input_idx, values)
-    data_loader = torch.utils.data.DataLoader(dataset=dataset, batch_size=cfg.batch_size, shuffle=False)
+    # build dataloader
+    datacomb = torch.utils.data.TensorDataset(input_pos_agg, values_agg)
+    hic_loader = torch.utils.data.DataLoader(dataset=datacomb, batch_size=cfg.batch_size, shuffle=False)
 
-    return data_loader, sample_index
+    return hic_loader, unsplit_ids_agg
 
 
-def get_bedfile(sample_index, cfg):
-    chr = sample_index[:, 0]
-    bin_idx = sample_index[:, 1]
-    start_coord = get_genomic_coord(chr, bin_idx, cfg)
-    stop_coord = start_coord + cfg.resolution
+def get_bed(cfg, unsplit_ids_agg):
+    chrom = unsplit_ids_agg[:, 0]
+    index_bin = unsplit_ids_agg[:, 1]
+    start_pos = get_gen_pos(cfg, chrom, index_bin)
+    stop_pos = start_coord + cfg.resolution
 
-    bedfile = pd.DataFrame({'chr': chr, 'start': start_coord, 'stop': stop_coord})
-    return bedfile
+    bed_file = pd.DataFrame({'chr': chrom, 'start': start_pos, 'stop': stop_pos})
+    return bed_file

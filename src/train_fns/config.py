@@ -7,7 +7,7 @@ class Config:
         self.load_weights = False
         self.lstm_nontrain = False
         self.genome_len = 288091
-        self.sequence_length = 500
+        self.chunk_length = 500
 
         self.num_chr = 23
         self.resolution = 10000
