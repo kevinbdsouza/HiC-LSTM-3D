@@ -36,10 +36,9 @@ if __name__ == '__main__':
     model_name = "contact_prob"
     cell = "GM12878"
 
-    # set up tensorboard
-    time_stamp = time.strftime("%Y%m%d-%H%M%S")
-    sum_writer = SummaryWriter('./tensorboard_logs/' + "hiclstm3d" + time_stamp)
-
+    # set up summary writer
+    sum_writer = None
+    
     model_train(cfg, model_name, cell, sum_writer)
 
     print("done")

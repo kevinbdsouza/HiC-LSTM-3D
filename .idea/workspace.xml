@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eec1459e-3926-48fd-beda-af1a5bdb6028" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/HiC-LSTM-3D.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HiC-LSTM-3D.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/remote-mappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/remote-mappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/train_fns/test_3d.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/train_fns/test_3d.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/train_fns/train_3d.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/train_fns/train_3d.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,35 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RunManager">
+    <configuration name="train_3d" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HiC-LSTM-3D" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/train_fns" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/train_fns/train_3d.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train_3d" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -44,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621057842985</updated>
       <workItem from="1621057845671" duration="9513000" />
-      <workItem from="1621070569045" duration="1716000" />
+      <workItem from="1621070569045" duration="2397000" />
     </task>
     <servers />
   </component>
@@ -56,18 +86,50 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1621062701413" />
-    <state x="148" y="132" key="SettingsEditor" timestamp="1621132508520">
+    <state width="1398" height="223" key="GridCell.Tab.0.bottom" timestamp="1621134245333">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="148" y="132" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1621132508520" />
-    <state x="482" y="178" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration" timestamp="1621132163565">
+    <state width="1398" height="223" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1621134245333" />
+    <state width="1398" height="223" key="GridCell.Tab.0.center" timestamp="1621134245330">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="482" y="178" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration/0.0.1440.900@0.0.1440.900" timestamp="1621132163565" />
-    <state x="627" y="187" key="ftp.server.browser" timestamp="1621132162306">
+    <state width="1398" height="223" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1621134245330" />
+    <state width="1398" height="223" key="GridCell.Tab.0.left" timestamp="1621134245328">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="627" y="187" key="ftp.server.browser/0.0.1440.900@0.0.1440.900" timestamp="1621132162306" />
+    <state width="1398" height="223" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1621134245328" />
+    <state width="1398" height="223" key="GridCell.Tab.0.right" timestamp="1621134245332">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1621134245332" />
+    <state width="1398" height="223" key="GridCell.Tab.1.bottom" timestamp="1621134241795">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1621134241795" />
+    <state width="1398" height="223" key="GridCell.Tab.1.center" timestamp="1621134241793">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1621134241793" />
+    <state width="1398" height="223" key="GridCell.Tab.1.left" timestamp="1621134241792">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1621134241792" />
+    <state width="1398" height="223" key="GridCell.Tab.1.right" timestamp="1621134241794">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="223" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1621134241794" />
+    <state x="170" y="128" key="SettingsEditor" timestamp="1621134221730">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="170" y="128" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1621134221730" />
+    <state x="482" y="178" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration" timestamp="1621134218275">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="482" y="178" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration/0.0.1440.900@0.0.1440.900" timestamp="1621134218275" />
+    <state x="627" y="187" key="ftp.server.browser" timestamp="1621134217221">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="627" y="187" key="ftp.server.browser/0.0.1440.900@0.0.1440.900" timestamp="1621134217221" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -79,5 +141,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/HiC_LSTM_3D$train_3d.coverage" NAME="train_3d Coverage Results" MODIFIED="1621134231969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/train_fns" />
   </component>
 </project>
