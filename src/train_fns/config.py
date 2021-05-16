@@ -21,9 +21,9 @@ class Config:
         self.num_epochs = 10
         self.batch_size = 200
 
-        self.hic_path = "/data2/hic_lstm/data/"
-        self.downstream_dir = "/data2/hic_lstm/downstream"
-        self.model_dir = '/home/kevindsouza/Documents/projects/hic_lstm/src/saved_model/model_lstm/exp_run'
+        self.hic_path = "/Users/jayrus/Downloads/github/working/HiC-LSTM-3D/hic_data/"
+        self.downstream_dir = "/Users/jayrus/Downloads/github/working/HiC-LSTM-3D/downstream"
+        self.model_dir = '/Users/jayrus/Downloads/github/working/HiC-LSTM-3D/src/saved_model/model_lstm/exp_run'
         self.sizes_file = "chr_cum_sizes.npy"
         self.start_end_file = "starts.npy"
         self.output_directory = "../outputs/"

@@ -4,9 +4,9 @@ import time
 import numpy as np
 import torch
 from torch.utils.tensorboard import SummaryWriter
-from train_fns import config
-from train_fns.model import HicLSTM3D
-from train_fns.data_utils import get_data_loader, get_bedfile
+import config
+from model import HicLSTM3D
+from data_utils import get_hic_loader, get_bed
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 

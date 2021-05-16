@@ -5,7 +5,7 @@ from torch import nn
 from torch.autograd import Variable
 from torch.nn.utils.clip_grad import clip_grad_norm_
 import lstm
-from captum.attr import LayerIntegratedGradients
+# from captum.attr import LayerIntegratedGradients
 
 
 class HicLSTM3D(nn.Module):
