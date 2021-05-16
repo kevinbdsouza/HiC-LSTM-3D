@@ -18,7 +18,7 @@ class Config:
 
         self.learning_rate = 1e-2
         self.max_norm = 10
-        self.num_epochs = 10
+        self.num_epochs = 2
         self.batch_size = 200
 
         self.hic_path = "/data2/hic_lstm/data/"
