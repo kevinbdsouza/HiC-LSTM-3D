@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eec1459e-3926-48fd-beda-af1a5bdb6028" name="Default Changelist" comment="" />
+    <list default="true" id="eec1459e-3926-48fd-beda-af1a5bdb6028" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/train_fns/test_3d.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/train_fns/test_3d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/train_fns/train_3d.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/train_fns/train_3d.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -38,7 +43,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621057842985</updated>
-      <workItem from="1621057845671" duration="9395000" />
+      <workItem from="1621057845671" duration="9513000" />
+      <workItem from="1621070569045" duration="1716000" />
     </task>
     <servers />
   </component>
@@ -50,5 +56,28 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1621062701413" />
+    <state x="148" y="132" key="SettingsEditor" timestamp="1621132508520">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="148" y="132" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1621132508520" />
+    <state x="482" y="178" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration" timestamp="1621132163565">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="482" y="178" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration/0.0.1440.900@0.0.1440.900" timestamp="1621132163565" />
+    <state x="627" y="187" key="ftp.server.browser" timestamp="1621132162306">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="627" y="187" key="ftp.server.browser/0.0.1440.900@0.0.1440.900" timestamp="1621132162306" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/train_fns/train_3d.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import torch
 from train_fns.model import HicLSTM3D
-from train_fns.data_utils import get_data_loader_chr
+from train_fns.data_utils import get_hic_loader_chr
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
