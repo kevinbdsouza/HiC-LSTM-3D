@@ -1,5 +1,5 @@
 import numpy as np
-import tqdm
+from tqdm import tqdm
 import torch
 from torch import nn
 from torch.autograd import Variable
