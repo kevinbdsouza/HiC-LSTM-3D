@@ -20,7 +20,7 @@ def contactProbabilities(values, delta=1e-10):
 def bin_index(cfg, chr, pos_id):
     sizes = np.load(cfg.hic_path + cfg.sizes_file, allow_pickle=True).item()
     chr_key = ['chr' + str(chrom - 1) for chrom in chr]
-    chr_begin = [sizes[key] for key in chr_key]
+    chr_begin = [int(sizes[key]/cfg.resolution) for key in chr_key]
 
     return pos_id + chr_begin
 
