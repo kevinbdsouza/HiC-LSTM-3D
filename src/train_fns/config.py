@@ -26,8 +26,8 @@ class Config:
         self.model_dir = '/home/kevindsouza/Documents/projects/hic_lstm/src/saved_model/model_lstm/exp_run/'
         self.sizes_file = "chr_cum_sizes.npy"
         self.start_end_file = "starts.npy"
-        self.output_directory = "../outputs/"
-        self.processed_data_dir = self.output_directory + 'processed_data/'
+        self.output_directory = "../data/"
+        self.processed_data_dir = self.output_directory + 'processed/'
 
         self.config_base = 'config.yaml'
         self.tensorboard_log_base = 't_log'
