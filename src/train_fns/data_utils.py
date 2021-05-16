@@ -1,7 +1,7 @@
 import math
 import os
 import torch
-import torch.utils.data
+from torch.utils.data import DataLoader, TensorDataset
 from torch.nn.utils.rnn import pad_sequence
 import numpy as np
 import pandas as pd
@@ -96,8 +96,8 @@ def get_hic_loader_chr(chr, cell, cfg):
     unsplit_ids, hic_values, input_pos = load_hic_data(chr, cell, cfg)
 
     # build dataloader
-    datacomb = torch.utils.data.TensorDataset(input_pos.float(), hic_values.float())
-    hic_loader = torch.utils.data.DataLoader(dataset=datacomb, batch_size=cfg.batch_size, shuffle=False)
+    datacomb = TensorDataset(input_pos.float(), hic_values.float())
+    hic_loader = DataLoader(dataset=datacomb, batch_size=cfg.batch_size, shuffle=False)
 
     return hic_loader, unsplit_ids
 
@@ -124,8 +124,8 @@ def get_hic_loader(cell, cfg):
     torch.save(unsplit_ids_agg, cfg.processed_data_dir + 'unsplit_ids.pth')
 
     # build dataloader
-    datacomb = torch.utils.data.TensorDataset(input_pos_agg, values_agg)
-    hic_loader = torch.utils.data.DataLoader(dataset=datacomb, batch_size=cfg.batch_size, shuffle=False)
+    datacomb = TensorDataset(input_pos_agg, values_agg)
+    hic_loader = DataLoader(dataset=datacomb, batch_size=cfg.batch_size, shuffle=False)
 
     return hic_loader, unsplit_ids_agg
 
@@ -134,7 +134,7 @@ def get_bed(cfg, unsplit_ids_agg):
     chrom = unsplit_ids_agg[:, 0]
     index_bin = unsplit_ids_agg[:, 1]
     start_pos = get_gen_pos(cfg, chrom, index_bin)
-    stop_pos = start_coord + cfg.resolution
+    stop_pos = start_pos + cfg.resolution
 
     bed_file = pd.DataFrame({'chr': chrom, 'start': start_pos, 'stop': stop_pos})
     return bed_file
