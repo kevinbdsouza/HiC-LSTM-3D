@@ -1,10 +1,11 @@
 import numpy as np
-import tqdm
+from tqdm import tqdm
 import torch
 from torch import nn
 from torch.autograd import Variable
 from torch.nn.utils.clip_grad import clip_grad_norm_
 import lstm
+import matplotlib.pyplot as plt
 # from captum.attr import LayerIntegratedGradients
 
 
@@ -30,6 +31,13 @@ class HicLSTM3D(nn.Module):
 
     def forward(self, input):
         hidden, state = self._initHidden(input.shape[0])
+        
+        print("In self.forward: ")
+        print(f"Input shape: {input.shape}, Input.long() shape: {input.long().shape}")
+
+        plt.clf() ; plt.matshow(input[:100,:100,0])
+        plt.clf() ; plt.plot(sorted(np.reshape(input, (-1, 1)))) ; plt.show()
+
         representations = self.ThreeD_embed(input.long())
         representations = representations.view((input.shape[0], self.cfg.chunk_length, -1))
         output, _ = self.lnlstm(representations, (hidden, state))
@@ -76,6 +84,10 @@ class HicLSTM3D(nn.Module):
             self.train()
             epoch_loss = 0.0
             for comb, (input_pos, hic_values) in enumerate(tqdm(hic_loader)):
+                
+                print(f"In epoch number {ep}:")
+                print(f"input_pos shape : {input_pos.shape} and hic_values shape: {hic_values.shape}")
+
                 input_pos = input_pos.to(device)
                 hic_values = hic_values.to(device)
 
@@ -90,10 +102,11 @@ class HicLSTM3D(nn.Module):
                 clip_grad_norm_(self.parameters(), max_norm=cfg.max_norm)
                 optimizer.step()
 
-                sum_writer.add_scalar('training loss',
-                                      loss, comb + ep * len(hic_loader))
+                ########
+                # sum_writer.add_scalar('training loss',
+                #                       loss, comb + ep * len(hic_loader))
 
-            print('Epoch Number %s' % str(epoch + 1))
+            print('Epoch Number %s' % str(ep + 1))
             print('Mean Epoch loss: %s' % (epoch_loss / len(hic_loader)))
 
     def test_Hic3D(self, hic_loader):

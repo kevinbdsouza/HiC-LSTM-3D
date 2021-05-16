@@ -18,7 +18,7 @@ class Config:
 
         self.learning_rate = 1e-2
         self.max_norm = 10
-        self.num_epochs = 10
+        self.num_epochs = 2
         self.batch_size = 200
 
         self.hic_path = "/Users/jayrus/Downloads/github/working/HiC-LSTM-3D/hic_data/"
@@ -26,8 +26,8 @@ class Config:
         self.model_dir = '/Users/jayrus/Downloads/github/working/HiC-LSTM-3D/src/saved_model/model_lstm/exp_run'
         self.sizes_file = "chr_cum_sizes.npy"
         self.start_end_file = "starts.npy"
-        self.output_directory = "../outputs/"
-        self.processed_data_dir = self.output_directory + 'processed_data/'
+        self.output_directory = "/Users/jayrus/Downloads/github/working/HiC-LSTM-3D/hic_data/"
+        self.processed_data_dir = self.output_directory + 'processed/'
 
         self.config_base = 'config.yaml'
         self.tensorboard_log_base = 't_log'

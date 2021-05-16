@@ -82,7 +82,7 @@ def load_hic_samples(chr, cfg, hic_data):
     unsplit_ids = np.vstack(idx_agg)
     unsplit_ids = np.concatenate((np.full((unsplit_ids.shape[0], 1), chr), unsplit_ids), 1).astype('int')
 
-    return unsplit_ids, input_pos, hic_values
+    return unsplit_ids, hic_values, input_pos
 
 
 def load_hic_data(chr, cell, cfg):
@@ -124,7 +124,7 @@ def get_hic_loader(cell, cfg):
     # save data
     torch.save(input_pos_agg, cfg.processed_data_dir + 'input_pos.pth')
     torch.save(values_agg, cfg.processed_data_dir + 'hic_values.pth')
-    torch.save(ids_agg, cfg.processed_data_dir + 'unsplit_ids.pth')
+    torch.save(unsplit_ids_agg, cfg.processed_data_dir + 'unsplit_ids.pth')
 
     # build dataloader
     datacomb = torch.utils.data.TensorDataset(input_pos_agg, values_agg)
