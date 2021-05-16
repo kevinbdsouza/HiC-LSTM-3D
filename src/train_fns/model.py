@@ -90,10 +90,10 @@ class HicLSTM3D(nn.Module):
                 clip_grad_norm_(self.parameters(), max_norm=cfg.max_norm)
                 optimizer.step()
 
-                sum_writer.add_scalar('training loss',
-                                      loss, comb + ep * len(hic_loader))
+                # sum_writer.add_scalar('training loss',
+                # loss, comb + ep * len(hic_loader))
 
-            print('Epoch Number %s' % str(epoch + 1))
+            print('Epoch Number %s' % str(ep + 1))
             print('Mean Epoch loss: %s' % (epoch_loss / len(hic_loader)))
 
     def test_Hic3D(self, hic_loader):
