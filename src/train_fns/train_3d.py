@@ -3,7 +3,6 @@ import sys
 import time
 import numpy as np
 import torch
-from torch.utils.tensorboard import SummaryWriter
 from train_fns import config
 from train_fns.model import HicLSTM3D
 from train_fns.data_utils import get_hic_loader, get_bed
@@ -38,7 +37,7 @@ if __name__ == '__main__':
 
     # set up summary writer
     sum_writer = None
-    
+
     model_train(cfg, model_name, cell, sum_writer)
 
     print("done")
