@@ -377,3 +377,9 @@ class HicLSTM3D_rep(nn.Module):
         ko_predictions = torch.reshape(ko_predictions, (-1, 1)).cpu().detach().numpy()
 
         return ko_predictions
+
+
+
+
+if __name__ == '__main__':
+    pass

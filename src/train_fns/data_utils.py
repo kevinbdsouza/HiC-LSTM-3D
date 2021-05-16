@@ -109,8 +109,11 @@ def get_hic_loader(cell, cfg):
     unsplit_ids_agg = []
 
     # for chr in list(range(1, 11)) + list(range(12,23)):
-    for chr in list(range(22, 23)):
+    # for chr in list(range(22, 23)):
+    for chr in list(range(21, 22)):
         unsplit_ids, hic_values, input_pos = load_hic_data(chr, cell, cfg)
+
+        print(input_pos_agg.shape, input_pos.shape)
 
         input_pos_agg = torch.cat((input_pos_agg, input_pos), 0)
         values_agg = torch.cat((values_agg, hic_values.float()), 0)

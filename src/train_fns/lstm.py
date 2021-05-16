@@ -372,9 +372,16 @@ class LayerNormLSTM(LSTMcell):
 
 
 if __name__ == '__main__':
-    model = LSTM(50, 100, 2)
-    x = Variable(Tensor(50, 32, 50))
+    model = LSTM(10, 100, 2)
+    x = Variable(Tensor(50, 32, 10))
+    # A batch of 32 sequences, each batch of 50 words, and each word of 10D.
     # h = model.init_hidden(32)
     h = (Variable(Tensor(2 * 2, 32, 100)),
          Variable(Tensor(2 * 2, 32, 100)))
-    print(model(x, h))
+    print(x.shape)
+    print(h[0].shape)
+    print(h[1].shape)
+    print(model(x, h)[0].shape)
+    print(model(x, h)[1][0].shape)
+    print(model(x, h)[1][1].shape)
+    # print(model(x, h))
