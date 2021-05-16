@@ -7,8 +7,8 @@ from train_fns import config
 from train_fns.model import HicLSTM3D
 from train_fns.data_utils import get_hic_loader, get_bed
 
-device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
-
+#device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+device = 'cpu'
 
 def model_train(cfg, model_name, cell, sum_writer):
     model = HicLSTM3D(cfg, device, model_name).to(device)
