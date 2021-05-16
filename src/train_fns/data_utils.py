@@ -104,8 +104,8 @@ def get_hic_loader_chr(chr, cell, cfg):
 
 def get_hic_loader(cell, cfg):
     # build dataset
-    input_pos_agg = torch.empty(0, cfg.chunk_length, 2)
-    values_agg = torch.empty(0, cfg.chunk_length)
+    input_pos_agg = torch.empty(1, cfg.chunk_length, 2)
+    values_agg = torch.empty(1, cfg.chunk_length)
     unsplit_ids_agg = []
 
     # for chr in list(range(1, 11)) + list(range(12,23)):

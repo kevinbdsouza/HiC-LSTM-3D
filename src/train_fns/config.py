@@ -23,7 +23,7 @@ class Config:
 
         self.hic_path = "/data2/hic_lstm/data/"
         self.downstream_dir = "/data2/hic_lstm/downstream"
-        self.model_dir = '/home/kevindsouza/Documents/projects/hic_lstm/src/saved_model/model_lstm/exp_run'
+        self.model_dir = '/home/kevindsouza/Documents/projects/hic_lstm/src/saved_model/model_lstm/exp_run/'
         self.sizes_file = "chr_cum_sizes.npy"
         self.start_end_file = "starts.npy"
         self.output_directory = "../outputs/"
