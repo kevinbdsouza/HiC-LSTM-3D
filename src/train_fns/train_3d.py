@@ -5,16 +5,19 @@ import numpy as np
 import torch
 from torch.utils.tensorboard import SummaryWriter
 import config
-from model import HicLSTM3D
+from model import HicLSTM3D, HicLSTM3D_rep
 from data_utils import get_hic_loader, get_bed
 
-device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+# device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+device = torch.device('cpu')
 
 
 def model_train(cfg, model_name, cell, sum_writer):
-    model = HicLSTM3D(cfg, device, model_name).to(device)
+    model = HicLSTM3D_rep(cfg, device, model_name).to(device)
     model.load_weights()
     optimizer, criterion = model.compile_optimizer()
+
+    print(model)
 
     # load hic data
     hic_loader, unsplit_ids = get_hic_loader(cell, cfg)

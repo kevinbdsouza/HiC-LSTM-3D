@@ -209,7 +209,7 @@ class HicLSTM3D_rep(nn.Module):
         
         # self._initialize_rep_embed(cfg)
 
-        self.lnlstm     = lstm.LSTM(cfg.input_size_lstm, cfg.hidden_size_lstm, batch_first=True)
+        self.lnlstm     = lstm.LSTM(cfg.pos_embed_size, cfg.hidden_size_lstm, batch_first=True)
         self.linear_out = nn.Linear(cfg.hidden_size_lstm * cfg.chunk_length, cfg.output_size_lstm * cfg.chunk_length)
 
         if cfg.lstm_nontrain:
@@ -222,8 +222,10 @@ class HicLSTM3D_rep(nn.Module):
         # representations = self.ThreeD_embed(input.long())
         # representations = representations.view((input.shape[0], self.cfg.chunk_length, -1))
 
-        mu      = self.pos_mean_embed(input)
-        log_var = self.pos_var_embed( input)
+        print(input.shape)
+
+        mu      = self.pos_mean_embed(input.long())
+        log_var = self.pos_var_embed( input.long())
         representations = self.reparameterize(mu, log_var)
 
         output, _ = self.lnlstm(representations, (hidden, state))
@@ -245,6 +247,9 @@ class HicLSTM3D_rep(nn.Module):
         """
         std = torch.exp(0.5 * logvar)
         eps = torch.randn_like(std)
+        print(mu.shape, logvar.shape)
+        print(std.shape, eps.shape)
+        print((eps * std + mu).shape)
         return eps * std + mu
 
     def _initialize_rep_embed(self, cfg):
@@ -295,6 +300,9 @@ class HicLSTM3D_rep(nn.Module):
                 hic_values = hic_values.to(device)
 
                 # Forward pass 
+
+                input_pos, hic_values = torch.randint(10, (200,500)), torch.randint(10, (200, 500))
+
                 output = self.forward(input_pos)
                 loss = criterion(output, hic_values)
                 epoch_loss += loss.item()
@@ -396,3 +404,6 @@ class HicLSTM3D_rep(nn.Module):
 
 if __name__ == '__main__':
     pass
+
+
+    input_pos, hic_values = torch.randint(10, (200,500,2)), torch.randint(10, (200, 500))

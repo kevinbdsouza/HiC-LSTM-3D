@@ -105,7 +105,7 @@ def get_hic_loader_chr(chr, cell, cfg):
 def get_hic_loader(cell, cfg):
     # build dataset
     input_pos_agg = torch.empty(0, cfg.chunk_length, 2)
-    values_agg = torch.empty(0, cfg.chunk_length)
+    values_agg    = torch.empty(0, cfg.chunk_length)
     unsplit_ids_agg = []
 
     # for chr in list(range(1, 11)) + list(range(12,23)):
@@ -116,7 +116,7 @@ def get_hic_loader(cell, cfg):
         print(input_pos_agg.shape, input_pos.shape)
 
         input_pos_agg = torch.cat((input_pos_agg, input_pos), 0)
-        values_agg = torch.cat((values_agg, hic_values.float()), 0)
+        values_agg    = torch.cat((values_agg, hic_values.float()), 0)
         unsplit_ids_agg.append(unsplit_ids)
 
     unsplit_ids_agg = np.vstack(unsplit_ids_agg)
