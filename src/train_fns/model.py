@@ -224,8 +224,8 @@ class HicLSTM3D_rep(nn.Module):
 
         print(input.shape)
 
-        mu      = self.pos_mean_embed(input).float()
-        log_var = self.pos_var_embed( input).float()
+        mu      = self.pos_mean_embed(input)
+        log_var = self.pos_var_embed( input)
         representations = self.reparameterize(mu, log_var)
 
         output, _ = self.lnlstm(representations, (hidden, state))
@@ -306,7 +306,7 @@ class HicLSTM3D_rep(nn.Module):
                 input_pos, hic_values = torch.randint(10, (200,500)), torch.randint(10, (200, 500))
 
                 output = self.forward(input_pos)
-                loss = criterion(output, hic_values).float()
+                loss = criterion(output.float(), hic_values.float())
                 print(loss)
                 epoch_loss += loss.item()
 
