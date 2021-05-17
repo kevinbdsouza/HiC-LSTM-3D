@@ -304,7 +304,7 @@ class HicLSTM3D_rep(nn.Module):
                 input_pos, hic_values = torch.randint(10, (200,500)), torch.randint(10, (200, 500))
 
                 output = self.forward(input_pos)
-                loss = criterion(output, hic_values)
+                loss = criterion(output, hic_values).float()
                 print(loss)
                 epoch_loss += loss.item()
 
