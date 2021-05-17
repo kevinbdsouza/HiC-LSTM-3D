@@ -303,7 +303,7 @@ class HicLSTM3D_rep(nn.Module):
 
                 # Forward pass 
 
-                input_pos, hic_values = torch.rand(10, (200,500)), torch.randint(10, (200, 500))
+                input_pos, hic_values = torch.randint(10, (200,500)), torch.randint(10, (200, 500))
 
                 output = self.forward(input_pos)
                 loss = criterion(output, hic_values).float()
