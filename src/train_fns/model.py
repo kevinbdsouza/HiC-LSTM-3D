@@ -224,12 +224,14 @@ class HicLSTM3D_rep(nn.Module):
 
         print(input.shape)
 
-        mu      = self.pos_mean_embed(input.long())
-        log_var = self.pos_var_embed( input.long())
+        mu      = self.pos_mean_embed(input)
+        log_var = self.pos_var_embed( input)
         representations = self.reparameterize(mu, log_var)
 
         output, _ = self.lnlstm(representations, (hidden, state))
+        print(output.shape)
         output = self.linear_out(output.reshape(input.shape[0], -1))
+        print(output.shape)
         return output
 
     def ko_forward(self, representations):
