@@ -305,6 +305,7 @@ class HicLSTM3D_rep(nn.Module):
 
                 output = self.forward(input_pos)
                 loss = criterion(output, hic_values)
+                print(loss)
                 epoch_loss += loss.item()
 
                 # Backward and optimize
