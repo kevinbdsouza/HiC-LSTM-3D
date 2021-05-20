@@ -13,7 +13,6 @@ import matplotlib.pyplot as plt
 def contactProbabilities(values, delta=1e-10):
     coeff = np.nan_to_num(1 / (values + delta))
     CP = np.power(1 / np.exp(8), coeff)
-
     return CP
 
 
@@ -21,13 +20,11 @@ def bin_index(cfg, chr, pos_id):
     sizes = np.load(cfg.hic_path + cfg.sizes_file, allow_pickle=True).item()
     chr_key = ['chr' + str(chrom - 1) for chrom in chr]
     chr_begin = [sizes[key] for key in chr_key]
-
     return pos_id + chr_begin
 
 
 def get_hic(chr, cell, cfg):
     hic_data = pd.read_csv("%s%s/%s/hic_chr%s.txt" % (cfg.hic_path, cell, chr, chr), sep="\t", names=['i', 'j', 'v'])
-
     hic_data[['i', 'j']] = hic_data[['i', 'j']] / cfg.resolution
     hic_data[['i', 'j']] = hic_data[['i', 'j']].astype('int64')
     return hic_data
@@ -37,7 +34,6 @@ def get_gen_pos(cfg, chr, index_bin):
     sizes = np.load(cfg.hic_path + cfg.sizes_file, allow_pickle=True).item()
     chr_key = ['chr' + str(chrom - 1) for chrom in chr]
     chr_begin = [sizes[key] for key in chr_key]
-
     return (index_bin - chr_begin) * cfg.resolution
 
 
@@ -60,25 +56,21 @@ def load_hic_samples(chr, cfg, hic_data):
             continue
         else:
             values = contactProbabilities(values)
-
         if (nvalues > 10):
             list_nvals.append(nvalues)
             values = torch.from_numpy(values)
-
             values_split = values.split(cfg.chunk_length, dim=0)
             values_agg = values_agg + list(values_split)
-
             # input indices
-            row_id = torch.Tensor(hic_data[hic_data['i'] == r]['i_bin'].values)
+            row_id = torch.Tensor(   hic_data[hic_data['i'] == r]['i_bin'].values)
             column_id = torch.Tensor(hic_data[hic_data['i'] == r]['j_bin'].values)
             input_ind = torch.cat((row_id.unsqueeze(-1), column_id.unsqueeze(-1)), 1)
             chunk_ind = torch.split(input_ind, cfg.chunk_length, dim=0)
             input_pos_agg = input_pos_agg + list(chunk_ind)
-
             idx_agg.append(input_ind)
 
-    hic_values = pad_sequence(values_agg, batch_first=True)
-    input_pos = pad_sequence(input_pos_agg, batch_first=True)
+    hic_values = pad_sequence(values_agg,    batch_first=True)
+    input_pos  = pad_sequence(input_pos_agg, batch_first=True)
     unsplit_ids = np.vstack(idx_agg)
     unsplit_ids = np.concatenate((np.full((unsplit_ids.shape[0], 1), chr), unsplit_ids), 1).astype('int')
 
@@ -87,19 +79,9 @@ def load_hic_samples(chr, cfg, hic_data):
 
 def load_hic_data(chr, cell, cfg):
     hic_data = get_hic(chr, cell, cfg)
-    unsplit_ids, input_pos, hic_values = load_hic_samples(chr, cfg, hic_data)
+    unsplit_ids, hic_values, input_pos = load_hic_samples(chr, cfg, hic_data)
 
-    return unsplit_ids, input_pos, hic_values
-
-
-def get_hic_loader_chr(chr, cell, cfg):
-    unsplit_ids, hic_values, input_pos = load_hic_data(chr, cell, cfg)
-
-    # build dataloader
-    datacomb = torch.utils.data.TensorDataset(input_pos.float(), hic_values.float())
-    hic_loader = torch.utils.data.DataLoader(dataset=datacomb, batch_size=cfg.batch_size, shuffle=False)
-
-    return hic_loader, unsplit_ids
+    return unsplit_ids, hic_values, input_pos
 
 
 def get_hic_loader(cell, cfg):
@@ -122,15 +104,26 @@ def get_hic_loader(cell, cfg):
     unsplit_ids_agg = np.vstack(unsplit_ids_agg)
 
     # save data
-    torch.save(input_pos_agg, cfg.processed_data_dir + 'input_pos.pth')
-    torch.save(values_agg, cfg.processed_data_dir + 'hic_values.pth')
+    torch.save(input_pos_agg,   cfg.processed_data_dir + 'input_pos.pth')
+    torch.save(values_agg,      cfg.processed_data_dir + 'hic_values.pth')
     torch.save(unsplit_ids_agg, cfg.processed_data_dir + 'unsplit_ids.pth')
 
     # build dataloader
-    datacomb = torch.utils.data.TensorDataset(input_pos_agg, values_agg)
+    datacomb   = torch.utils.data.TensorDataset(input_pos_agg, values_agg)
     hic_loader = torch.utils.data.DataLoader(dataset=datacomb, batch_size=cfg.batch_size, shuffle=False)
 
     return hic_loader, unsplit_ids_agg
+
+
+
+def get_hic_loader_chr(chr, cell, cfg):
+    unsplit_ids, hic_values, input_pos = load_hic_data(chr, cell, cfg)
+
+    # build dataloader
+    datacomb   = torch.utils.data.TensorDataset(input_pos.float(), hic_values.float())
+    hic_loader = torch.utils.data.DataLoader(dataset=datacomb, batch_size=cfg.batch_size, shuffle=False)
+
+    return hic_loader, unsplit_ids
 
 
 def get_bed(cfg, unsplit_ids_agg):
